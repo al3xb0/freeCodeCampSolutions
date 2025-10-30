@@ -1,0 +1,16 @@
+{
+  "name": "services",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:issue-tracker": "cd issue-tracker && npm start",
+    "start:unit-converter": "cd unit-converter && npm start",
+    "start:personal-library": "cd personal-library && npm start",
+    "start:stock-checker": "cd stock-price-checker && npm start",
+    "start:message-board": "cd anonymous-message-board && npm start",
+    "start:all": "concurrently \"npm run start:issue-tracker\" \"npm run start:unit-converter\" \"npm run start:personal-library\" \"npm run start:stock-checker\" \"npm run start:message-board\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}

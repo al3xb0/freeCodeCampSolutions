@@ -1,0 +1,7 @@
+{
+  "name": "fcc-microservices",
+  "private": true,
+  "workspaces": [
+    "services/*"
+  ]
+}
