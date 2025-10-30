@@ -5,7 +5,7 @@ import app from '../server.js';
 
 let testBookId;
 
-// EXAMPLE TEST (GET all books, в т.ч. commentcount, title, _id)
+// EXAMPLE TEST
 describe('Functional Tests', function() {
   it('Example GET /api/books', async function() {
     const res = await request(app).get('/api/books');
